@@ -1,1 +1,1 @@
-web: python api/app.py & python bot/main.py
+web: ./railway_start.sh
