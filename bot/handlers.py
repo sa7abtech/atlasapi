@@ -28,7 +28,7 @@ logger = logging.getLogger("atlas.bot.handlers")
 
 # API client
 api_client = httpx.AsyncClient(timeout=30.0)
-API_BASE_URL = "http://localhost:8000"  # FastAPI backend
+API_BASE_URL = settings.API_URL  # FastAPI backend
 
 
 async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
