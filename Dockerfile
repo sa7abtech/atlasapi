@@ -17,6 +17,9 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy application code
 COPY . .
 
+# Set Python path so imports work
+ENV PYTHONPATH=/app
+
 # Make start script executable
 RUN chmod +x railway_start.sh
 
