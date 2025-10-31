@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(pkill:*)",
+      "Bash(source venv/bin/activate)",
+      "Bash(pip install:*)",
+      "Bash(lsof:*)",
+      "Bash(./start.sh:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
